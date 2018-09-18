@@ -1,6 +1,8 @@
 import serial
 import pynmea2
 from ISStreamer.Streamer import Streamer
+import os
+os.system("stty -F /dev/ttyS0 raw 9600 cs8 clocal -cstopb")
 
 serialStream = serial.Serial("/dev/ttyS0", 9600, timeout=0.5)
 
