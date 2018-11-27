@@ -1,3 +1,6 @@
 
 The Netatmo is a closed commercial anemometer, which can only be read as a APP API.
-1. 
+1. Install warmpserver and start it untill the server is running and the icon turns to green.
+2. Copy the index.php in the install folder of warmpserver. 
+3. Run the php as said here: https://blog.csdn.net/linxinfa/article/details/80404710. That is open the url: http://localhost/, in the web browser。
+4. Copy the Access_token in the TestNetatmo.py file and run it.
